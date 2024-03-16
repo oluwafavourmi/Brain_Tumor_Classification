@@ -30,5 +30,4 @@ else:
 
     string = 'This is likely the picture of' + '' + class_names[np.argmax(predictions)]
 
-    st.success(predictions)
     st.success(string)
